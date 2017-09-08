@@ -30,8 +30,8 @@
 
 .logo {
     position: relative;
-    width: fit-content;
     margin: 0 auto;
+    display: table;
 }
 
 .site-title h1 {
@@ -400,7 +400,7 @@ i.fa.fa-calendar-o {
 .social-footer {
     display: flex;
     margin: 0 auto;
-    max-width: fit-content;
+    display: table;
     padding: 80px 0;
 }
 .footer-icon {
@@ -415,6 +415,7 @@ i.fa.fa-calendar-o {
     font-size: 40px;
     margin: 28px;
     text-align: center;
+    float: left;
 }
 .social-footer i {
     color: #434d4d;
@@ -430,11 +431,15 @@ i.fa.fa-calendar-o {
     text-align: center;
     padding: 30px;
     display: flex;
-    width: fit-content;
     margin: 0 auto;
     text-transform: uppercase;
     font-family: 'Quicksand';
     font-size: 16px;
+    display: table;
+}
+
+.foot span {
+    float: left;
 }
 
 .foot-back {
@@ -453,23 +458,23 @@ i.fa.fa-calendar-o {
 }
 
 .top {
-    width: 15px;
-    height: 15px;
+    width: 16px;
+    height: 16px;
     background: #ffffff;
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
-    display: inline-block;
     position: absolute;
-    margin: 0 auto;
-    margin-left: -8px;
-    margin-top: -42px;
+    left: 7px;
+    top: -7px;
 }
 
 .heart {
     margin: 0 16px;
     margin-top: -8px;
+    float: left;
+    position: relative;
 }
 
 .rsvp a {
@@ -479,9 +484,9 @@ i.fa.fa-calendar-o {
     text-decoration: none;
     margin-top: 25px;
     display: block;
-    max-width: fit-content;
     transition: background 0.2s ease-in-out;
     -webkit-transition: background 0.2s ease-in-out;
+    display: table;
 }
 
 .rsvp a:before {
