@@ -3,21 +3,28 @@ layout: default
 ---
 
 <div class="home">
+    <div class="event">
+      <div class="diamonds">
+        <div class="d1"></div>
+        <div class="d2"></div>
+        <div class="d3"></div>
+      </div>
+      <div class="wrapper">
+        <div class="meta">
+          <div class="page-heading">
+            <div class="icon"><i class="fa fa-calendar-o" aria-hidden="true"></i></div>
+            <h2>Next Meetup</h2>
+          </div>
+          <h4>Intro to</h4>
+          <h3>Responsive Web Design</h3>
+          <div class="date"><i class="fa fa-clock-o" aria-hidden="true"></i><p>Tuesday, September 12th @ 7pm</p></div>
+          <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i><a href="https://www.google.com/maps/place/326+N+LBJ+Dr,+San+Marcos,+TX+78666/@29.8850376,-97.9423467,17z/data=!3m1!4b1!4m5!3m4!1s0x865ca867d4c4874b:0x7b74876041a728fa!8m2!3d29.8850376!4d-97.940158"><p>Splash Coworking, 326 N LBJ, San Marcos, TX</p></a></div>
+          <p class="description">Join us for our first meetup at the new Splash Coworking space in Downtown San Marcos, as TXST Senior Lecturer, Jon Zmikly, walks us through an introductory look at Responsive Web Design — understanding adaptive content principles, mobile first design strategies, SEO perks, and what’s needed from a developer’s perspective to actually build out responsive capabilities for any site.</p>
+        </div>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+        <div class="rsvp">
+          <a href="https://www.meetup.com/CommunityCodes/events/242752414/"><span>RSVP on Meetup.com</span></a>
+        </div>
+      </div>
+    </div>
 </div>

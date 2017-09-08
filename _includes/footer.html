@@ -2,37 +2,23 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
+    <div class="social-footer">
+      <a href="https://twitter.com/communitycodes"><div class="footer-icon"><i class="fa fa-twitter" aria-hidden="true"></i></div></a>
+      <a href="https://facebook.com/communitycodes"><div class="footer-icon"><i class="fa fa-facebook" aria-hidden="true"></i></div></a>
+      <a href="https://instagram.com/communitycodes"><div class="footer-icon"><i class="fa fa-instagram" aria-hidden="true"></i></div></a>
+      <a href="https://meetup.com/communitycodes"><div class="footer-icon"><i class="fa fa-meetup" aria-hidden="true"></i></div></a>
     </div>
 
+  </div>
+  <div class="foot-back">
+    <div class="foot">
+      <span>Made with</span>
+      <div class="heart">
+        <div class="base"></div>
+        <div class="top"></div>
+      </div>
+      <span>From SMTX</span>
+    </div>
   </div>
 
 </footer>
