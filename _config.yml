@@ -9,7 +9,7 @@
 title: Community Codes
 email: smtxcommunitycodes@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  We're a community of learners interested in improving our web development skills through free workshops on the 2nd Tuesday of each month!.
+  A community of learners advancing our web development skills through free monthly workshops in San Marcos, TX!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://communitycodes.org" # the base hostname & protocol for your site
 twitter_username: communitycodes

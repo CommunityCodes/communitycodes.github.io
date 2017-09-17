@@ -1,4 +1,14 @@
 <head>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106541122-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)};
+    gtag('js', new Date());
+
+    gtag('config', 'UA-106541122-1');
+  </script>
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -6,9 +16,30 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@communitycodes" />
+  <meta name="twitter:image" content="https://communitycodes.org/twitter.jpg">
+  <meta property="og:image" content="/og-image.jpg">
+  <meta property="og:image:width" content="1523">
+  <meta property="og:image:height" content="797">
+  <meta property="og:description" content="A community of learners advancing our web development skills through free monthly workshops in San Marcos, TX!">
+  <meta property="og:title" content="Community Codes | San Marcos">
+  <meta property="og:url" content="https://communitycodes.org">
+  <meta property="og:type" content="website" />
+
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
   <script src="https://use.fontawesome.com/c8551f0a28.js"></script>
+
+  <!-- Thanks https://realfavicongenerator.net/! -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3591ec">
+  <meta name="apple-mobile-web-app-title" content="Community Codes">
+  <meta name="application-name" content="Community Codes">
+  <meta name="theme-color" content="#eff8fe">
 </head>
