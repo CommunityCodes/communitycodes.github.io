@@ -9,6 +9,12 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 }
+.site-header p {
+    font-family: "Quicksand";
+    font-weight: bold;
+    font-size: 22px;
+    color: #3a3a3a;
+}
 
 .site-title {
     font-size: 26px;
@@ -487,6 +493,9 @@ i.fa.fa-calendar-o {
     transition: background 0.2s ease-in-out;
     -webkit-transition: background 0.2s ease-in-out;
     display: table;
+    float: left;
+    margin-right: 15px;
+    font-family: "Quicksand";
 }
 
 .rsvp a:before {
@@ -500,6 +509,18 @@ i.fa.fa-calendar-o {
 
 .rsvp a:hover {
     background: #d8392f;
+}
+
+a.fbrsvp {
+    background: #0352A0;
+}
+a.fbrsvp:before {
+    content: "\f09a";
+    margin-right: 20px;
+    margin-left: 8px;
+}
+a.fbrsvp:hover {
+    background: #003a73;
 }
 
 .rsvp span {
