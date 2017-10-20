@@ -529,6 +529,40 @@ a.fbrsvp:hover {
     position: relative;
     vertical-align: middle;
 }
+.rsvp input {
+    background-color: #E0F3FD;
+    border-width: 0px;
+    padding: 12px;
+    font-size: 18px;
+    font-family: "Quicksand";
+    color: #434d4d;
+    margin-right: 10px;
+}
+.rsvp button {
+    background: #eb594f;
+    border-width: 0;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-family: "Quicksand";
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+}
+.seeyouthere i {
+    font-size: 36px;
+    float: left;
+    width: 36px;
+    text-align: center;
+    margin-right: 5px;
+    color: #99cc33;
+}
+.seeyouthere h2 {
+    font-size: 22px;
+    margin-bottom: 0;
+    font-family: "Quicksand";
+    font-weight: bold;
+}
+
 
 .footer-heading {
     font-size: 18px;
