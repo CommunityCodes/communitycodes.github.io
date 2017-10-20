@@ -221,7 +221,7 @@
     margin-bottom: 0;
 }
 
-.date i, .location i {
+.date i, .location i, .free i {
     font-size: 36px;
     float: left;
     width: 36px;
@@ -229,7 +229,10 @@
     margin-right: 5px;
 }
 
-.date p, .location p {display: inline-block;margin-top: 5px;}
+.date p, .location p, .free p {
+    display: inline-block;
+    margin-top: 5px;
+}
 
 p.description {
     font-weight: normal;
