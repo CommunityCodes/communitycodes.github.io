@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Community Codes
+title: Community Codes | Free tech workshops in San Marcos, TX
 email: smtxcommunitycodes@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  A community of learners advancing our web development skills through free monthly workshops in San Marcos, TX!
+  A community of learners advancing our web development skills through free monthly tech workshops in San Marcos, Texas! Topics range from HTML/CSS, JavaScript, Responsive Web Design, and WordPress to name a few.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://communitycodes.org" # the base hostname & protocol for your site
 twitter_username: communitycodes
