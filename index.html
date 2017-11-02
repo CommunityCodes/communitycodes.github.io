@@ -24,13 +24,19 @@ layout: default
         </div>
 
         <div class="rsvp">
-          <form method="POST">
+          <form action="https://formspree.io/smtxcommunitycodes@gmail.com"
+                method="POST">
+              <input type="text" placeholder="First Name" name="name" required>
+              <input type="email" placeholder="Email" name="email" required>
+              <input type="submit" value="RSVP">
+          </form>
+          <!-- <form method="POST">
             <input type="text" name="name" id="name" placeholder="First Name" required>
             <input type="email" name="email" id="email" placeholder="Email" required>
             <input type="hidden" name="_subject" value="New submission!" />
             <input type="text" name="_gotcha" style="display:none" />
             <button type="submit">RSVP</button>
-          </form>
+          </form> -->
         </div>
         <div class="seeyouthere" style="display:none;">
           <i class="fa fa-check" aria-hidden="true"></i><h2>See you soon!</h2>
