@@ -221,7 +221,16 @@
     margin-bottom: 0;
 }
 
-.date i, .location i, .free i {
+.file {
+    margin-bottom: 20px;
+}
+
+.file a {
+    margin-top: 4px;
+    display: inline-block;
+}
+
+.date i, .location i, .free i, .file i {
     font-size: 36px;
     float: left;
     width: 36px;
@@ -229,7 +238,7 @@
     margin-right: 5px;
 }
 
-.date p, .location p, .free p {
+.date p, .location p, .free p, .file p {
     display: inline-block;
     margin-top: 5px;
 }
@@ -352,11 +361,11 @@ i.fa.fa-calendar-o {
         overflow: hidden;
     }
 
-    .date i, .location i, .free i {
+    .date i, .location i, .free i, .file i {
         font-size: 28px;
     }
 
-    .date p, .location p, .free p {
+    .date p, .location p, .free p, .file p {
         font-size: 15px;
     }
 
