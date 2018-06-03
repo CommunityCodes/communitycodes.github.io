@@ -325,6 +325,82 @@ i.fa.fa-calendar-o {
     position: relative;
 }
 
+.email .meta {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.email .rsvp {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.email .page-heading {
+    width: 60px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.event.email {
+    background: white;
+}
+
+.email i {
+    margin-top: 15px;
+    margin-left: 0px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    color: white;
+}
+
+.email .icon {
+    margin-top: 35px;
+}
+
+.email.event {
+    margin-top: 40px;
+}
+
+.email .meta h4 {
+    text-align: center;
+}
+
+#email {
+  display: none;
+}
+#email:target {
+  display: block;
+}
+
+
+.email p.description {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #797979;
+}
+
+#mc-embedded-subscribe {
+    background: #7ab5f2;
+    color: white;
+    font-weight: bold;
+}
+
+.email .icon {
+    background: #7ab5f2;
+}
+
+.email .meta h2 {
+    color: #7ab5f2;
+}
+
+input#mce-EMAIL {
+    width: 224px;
+}
+
 @include media-query($on-palm) {
     .footer-icon {
         width: 40px;
@@ -670,6 +746,18 @@ a.fbrsvp:hover {
 
     .foot {
       font-size: 14px;
+    }
+
+    .email .page-heading {
+      width: 40px;
+    }
+
+    .mc-field-group {
+        width: 100%;
+    }
+
+    input#mce-EMAIL {
+        width: 100%;
     }
 
 }
